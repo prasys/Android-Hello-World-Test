@@ -28,6 +28,6 @@ public class ExampleInstrumentedTest {
     public void testHelloWorldString() {
         // Context of the app under test.
         String myTextFromResources = InstrumentationRegistry.getInstrumentation().getTargetContext().getString(R.string.hello);
-        assertEquals(myTextFromResources , "Hello World!!!");
+        assertEquals(myTextFromResources , "Hello World!");
     }
 }
